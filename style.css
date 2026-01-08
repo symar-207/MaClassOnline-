@@ -1,3 +1,13 @@
 body {
     font-size: 15pt;
-} 
+     background-image:
+     url('/Screenshot_20260108_024048.jpg ');
+  background-size:auto;/* affiche à la taille réelle */
+  background-position: center top;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;} 
+
+#contenu{padding-left:20px;
+/*décale le texte vers la droite sans déplacer le conteneur */box-sizing:border-box}
