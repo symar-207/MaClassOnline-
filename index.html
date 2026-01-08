@@ -11,25 +11,27 @@
   
 
   <!-- Custom Styles -->
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet"
+  href="style.css">
 </head>
 
-<body>
-  <p>Bienvenue sur Education🌐  </p>
-  <h2>inscription </h2><form><label for="nom">Nom :</label><br>
-  <input type="text" id="nom"   name="nom" required><br><br> <label 
-  for="email">Email:</label><br>
-  <input type="email" 
-  id="email" name="email"
-  required ><br><br>
-  
-  <<label for="mot de passe">mot de passe :</label><br>
-  <input type ="password"
-  id="motdepasse" 
-  name="motdepasse"required><br><br><button type=
-"submit"> S'enregistrer </button>
-    </form >
-  <!-- Project -->
+<body><p>Bienvenue sur Education🌐</p>
+  <div id="contenu">
+  <h2>inscription</h2>
+  <form onsubmit=
+  "enregistrerUtilisateur(event)">
+    <label for="nom">Nom:</label><br>
+    <input type="text" id="nom" name="nom"><br>
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email"><br>
+    <label for="motdepasse">Mot de passe:</label><br>
+    <input type="password" id="motdepasse" name="motdepasse"><br><br>
+    <button type="submit">S'enregistrer</button>
+  </form></div>
+
+  <!-- Zone utilisateur après connexion -->
+
   <script src="main.js"></script>
+
 </body>
 </html>
